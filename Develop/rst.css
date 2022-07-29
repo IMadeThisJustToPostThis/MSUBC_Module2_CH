@@ -1,0 +1,88 @@
+:root {
+  --grun: #bffcc6;
+  --lgrun: #dbffd6;
+  --blu: #6eb5ff;
+  --lblu: #ace7ff;
+  --aqu: #aff8db;
+  --purp: #b28dff;
+  --volt: #d5aaff;
+  --yell: #e7ffac;
+  --ruge: #ffaba8;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+
+h1 {
+  background-color: var(--blu);
+  color: var(--grun);
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  color: var(--blu);
+  font-size: 50px;
+}
+
+input,select,option,optgroup,textarea,button,pre,code {
+  font-size: 300%;
+  font-family: inherit;
+}
+
+ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+li {
+  display: inline;
+  flex: 0 1 auto;
+}
+
+nav {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: var(--yell);
+}
+
+nav a {
+  color: var(--volt);
+  display: inline;
+  flex: 0 1 auto;
+}
+
+nav a:hover {
+  background-color: var(--ruge);
+}
